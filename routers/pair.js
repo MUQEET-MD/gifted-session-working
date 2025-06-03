@@ -39,7 +39,7 @@ async function uploadCreds(id) {
             { credsId, credsData },
             {
                 headers: {
-                    'x-api-key': SESSIONS_API_KEY,
+                    'QcsTx4bid8z3X8gILZbYmcMHa': SESSIONS_API_KEY,
                     'Content-Type': 'application/json',
                 },
             }
