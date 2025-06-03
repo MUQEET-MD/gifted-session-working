@@ -35,11 +35,11 @@ async function uploadCreds(id) {
         const credsId = giftedId();
         
         const response = await axios.post(
-            `${SESSIONS_API_URL}/api/uploadCreds.php`,
+            `${SESSIONS_API_URL}https://developer.x.com/en/portal/projects/1929734798919991296/apps/30985931/keys`,
             { credsId, credsData },
             {
                 headers: {
-                    'QcsTx4bid8z3X8gILZbYmcMHa': SESSIONS_API_KEY,
+                    '6z6pNyW5ti81MkaZj361FsOvk': SESSIONS_API_KEY,
                     'Content-Type': 'application/json',
                 },
             }
